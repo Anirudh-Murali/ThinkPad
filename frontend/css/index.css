@@ -1,0 +1,78 @@
+
+::-webkit-scrollbar {
+        display: none;
+    }
+
+::-moz-scrollbar {
+        display: none;
+    }
+
+#main_frame{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+#upload_the_file_screen{
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+
+}
+
+#first_screen
+{
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  overflow: scroll;
+}
+
+.article_box{
+  position: absolute;
+  overflow: scroll;
+  top: 12%;
+  left: 2%;
+  height: 86%;
+  width: 47%;
+  background-color: white;
+}
+
+.trending_box{
+  position: absolute;
+  overflow: scroll;
+  top:12%;
+  left: 51%;
+  width: 47%;
+  height: 86%;
+  background-color: white;
+}
+
+
+
+.upload_your_code_box{
+  background-color: white;
+}
+
+.click_here_to_upload
+{
+  border-style: dashed;
+  border-color: blue;
+}
+
+.analysis_data{
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  background-color: white;
+}
