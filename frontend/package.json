@@ -1,0 +1,23 @@
+{
+  "name": "rajkot_hackathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "assert": "*",
+    "body-parser": "^1.17.2",
+    "cors": "*",
+    "express": "*",
+    "google-trends-api": "^4.2.2",
+    "mongodb": "*",
+    "nexmo": "*",
+    "nodemailer": "^4.0.1",
+    "twilio": "*"
+  },
+  "author": "",
+  "license": "MIT"
+}
